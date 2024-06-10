@@ -1,8 +1,6 @@
 import { TheCatAPI } from "@thatapicompany/thecatapi";
 
-const theCatAPI = new TheCatAPI(
-  "live_u3SN0EYS4MkDP31pzW8I35AISWfsL4TcQdY1XVgDiED3yywU6MAbldrq7aRF5cHS",
-);
+const theCatAPI = new TheCatAPI(process.env.NEXT_PUBLIC_CATS_API_KEY);
 
 export const getRandomKittens = async (numOfImages) => {
   try {
