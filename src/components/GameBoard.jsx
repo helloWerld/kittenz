@@ -102,7 +102,7 @@ const GameBoard = () => {
 			)}
 			<div className="flex w-full items-center justify-between mx-auto p-6">
 				<button
-					className="btn w-fit"
+          className={`btn w-fit ${solvedKittensArray.length === numOfKittens && 'animate-bounce'}`}
 					onClick={() => {
 						newGame();
 					}}
