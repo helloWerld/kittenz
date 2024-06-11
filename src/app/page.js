@@ -30,7 +30,7 @@ export default function Home() {
         <div className="hero min-h-screen">
           <div className="hero-content flex-col lg:flex-row gap-12">
             <div className="flex flex-col w-full lg:w-1/2">
-              <h1 className="text-6xl font-bold text-accent">Play kittenz</h1>
+              <h1 className="text-6xl font-bold text-accent">Play kittenz 🧶</h1>
               <h2 className="text-2xl font-bold mt-2">
                 The Purr-fectly Ridiculous Kitten Matching Game
               </h2>
